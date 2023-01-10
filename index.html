@@ -1,0 +1,1105 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+	    <meta charset="utf-8">
+	    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	    <meta name="viewport" content="width=device-width, initial-scale=1">
+	    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+	    <meta name="description" content="">
+	    <meta name="author" content="">
+	    <link rel="icon" href="favicon.ico">
+	    <title>Huella Verde - ARP</title>
+	    <!-- Bootstrap core CSS -->
+	    <link href="bootstrap-3.3.5/dist/css/bootstrap.min.css" rel="stylesheet">
+	    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+	    <!--[if lt IE 9]>
+	      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+	      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+	    <![endif]-->
+	    <!--Mi estilo-->
+	    <link href="geomanist-bold.css" rel="stylesheet">
+	    <link href="geomanist-regular.css" rel="stylesheet">
+	    <link href="style.css" rel="stylesheet">
+	    <!-- Analytics -->
+		<script>
+		  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+		
+		  ga('create', 'UA-74503251-1', 'auto');
+		  ga('send', 'pageview');
+		
+		</script>
+	    <!-- scroll automático -->
+	    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js" type="text/javascript"></script>
+	   	<script type="text/javascript">
+			$(document).ready(function() {
+			$("#flecha").click(function() {
+			$("html, body").animate({
+			scrollTop: $($(this).attr("href")).offset().top + "px"
+			}, {
+			duration: 1000,
+			easing: "swing"
+			});
+			return false;
+			});
+			});
+		</script>
+		<script src="bootstrap-3.3.5/dist/js/bootstrap.min.js" type="text/javascript"></script>
+		<script src="dynamics.min.js" type="text/javascript"></script>
+	    <!-- Pop up - pantalla completa -->
+	    <script type="text/javascript">
+			function functionOne() { 
+			document.getElementById('menu-2').className='overlay';
+			}
+		</script>
+		<script type="text/javascript">
+			function functionTwo() { 
+			document.getElementById('menu-2').className='overlay active';
+			}
+		</script>
+		<script type="text/javascript">
+			function functionAjo() { 
+			document.getElementById('ajo').className='overlay';
+			}
+		</script>
+		<script type="text/javascript">
+			function functionAjo2() { 
+			document.getElementById('ajo').className='overlay active';
+			}
+		</script>
+		<script type="text/javascript">
+			function functionAlbahaca() { 
+			document.getElementById('albahaca').className='overlay';
+			}
+		</script>
+		<script type="text/javascript">
+			function functionAlbahaca2() { 
+			document.getElementById('albahaca').className='overlay active';
+			}
+		</script>
+		<script type="text/javascript">
+			function functionCebolla() { 
+			document.getElementById('cebolla').className='overlay';
+			}
+		</script>
+		<script type="text/javascript">
+			function functionCebolla2() { 
+			document.getElementById('cebolla').className='overlay active';
+			}
+		</script>
+		<script type="text/javascript">
+			function functionEspinaca() { 
+			document.getElementById('espinaca').className='overlay';
+			}
+		</script>
+		<script type="text/javascript">
+			function functionEspinaca2() { 
+			document.getElementById('espinaca').className='overlay active';
+			}
+		</script>
+		<script type="text/javascript">
+			function functionGuisante() { 
+			document.getElementById('guisante').className='overlay';
+			}
+		</script>
+		<script type="text/javascript">
+			function functionGuisante2() { 
+			document.getElementById('guisante').className='overlay active';
+			}
+		</script>
+		<script type="text/javascript">
+			function functionHaba() { 
+			document.getElementById('haba').className='overlay';
+			}
+		</script>
+		<script type="text/javascript">
+			function functionHaba2() { 
+			document.getElementById('haba').className='overlay active';
+			}
+		</script>
+				<script type="text/javascript">
+			function functionLechuga() { 
+			document.getElementById('lechuga').className='overlay';
+			}
+		</script>
+		<script type="text/javascript">
+			function functionLechuga2() { 
+			document.getElementById('lechuga').className='overlay active';
+			}
+		</script>
+		<script type="text/javascript">
+			function functionPepino() { 
+			document.getElementById('pepino').className='overlay';
+			}
+		</script>
+		<script type="text/javascript">
+			function functionPepino2() { 
+			document.getElementById('pepino').className='overlay active';
+			}
+		</script>
+		<script type="text/javascript">
+			function functionPimiento() { 
+			document.getElementById('pimiento').className='overlay';
+			}
+		</script>
+		<script type="text/javascript">
+			function functionPimiento2() { 
+			document.getElementById('pimiento').className='overlay active';
+			}
+		</script>
+		<script type="text/javascript">
+			function functionRabanito() { 
+			document.getElementById('rabanito').className='overlay';
+			}
+		</script>
+		<script type="text/javascript">
+			function functionRabanito2() { 
+			document.getElementById('rabanito').className='overlay active';
+			}
+		</script>
+		<script type="text/javascript">
+			function functionTomate() { 
+			document.getElementById('tomate').className='overlay';
+			}
+		</script>
+		<script type="text/javascript">
+			function functionTomate2() { 
+			document.getElementById('tomate').className='overlay active';
+			}
+		</script>
+		<script type="text/javascript">
+			function functionZanahoria() { 
+			document.getElementById('zanahoria').className='overlay';
+			}
+		</script>
+		<script type="text/javascript">
+			function functionZanahoria2() { 
+			document.getElementById('zanahoria').className='overlay active';
+			}
+		</script>
+		<!-- Desplegables -->
+		<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+
+		
+    </head>
+    <body>
+    	<!-- <div class="overlay-2">
+			<div id="loader">
+				<span class="dot tomate">ahjbzfjd</span>
+				<span class="dot tomate">ahjbzfjd</span>
+				<span class="dot tomate">ahjbzfjd</span>
+			</div>
+		</div> -->
+    	<div id="menu">
+			<p>
+				<a href="#" onClick="functionTwo();">Menú<img src="img/menu.png" style="width:48px" onClick="functionTwo();"></a>
+			</p>
+		</div>
+		<div id="menu-2" class="overlay">
+			<div id="boton-cerrar">
+				<a href="#" onClick="functionOne();"><img src="img/cerrar.png" style="width:48px;"></a>
+			</div>
+			<div class="menu-text">
+				<h1>Menú</h1><br>
+				<a href="#intro" style="color:white;font-family:geomanist_regularregular;">Home</a><br>
+				<a href="#p6" onClick="functionOne();" style="color:white;font-family:geomanist_regularregular;">Administra tu huerto</a><br><br>
+				<a href="#p1" onClick="functionOne();" style="color:white;font-family:geomanist_regularregular;">1 - Planificar el huerto</a><br>
+				<a href="#p2" onClick="functionOne();" style="color:white;font-family:geomanist_regularregular;">2 - Los materiales</a><br>
+				<a href="#p3" onClick="functionOne();" style="color:white;font-family:geomanist_regularregular;">3 - Preparar la maceta</a><br>
+				<a href="#p4" onClick="functionOne();" style="color:white;font-family:geomanist_regularregular;">4 - La siembra</a><br>
+				<a href="#p5" onClick="functionOne();"style="color:white;font-family:geomanist_regularregular;">5 - El trasplante</a><br>
+				<a href="#p6" onClick="functionOne();" style="color:white;font-family:geomanist_regularregular;">6 - Cuidar el huerto</a><br><br>
+				<a href="#about" onClick="functionOne();" style="color:white;font-family:geomanist_regularregular;">Sobre Huella Verde</a>
+			</div>
+		</div>
+		<div id="intro">
+			<div id="intro-img1" class="bg-img">
+				<div>
+					<div class="content">
+					    <div class="row">
+					        <div id="intro-content-img" class="col-md-3 title">
+					        	<img src="img/avispa.gif" style="width:150px;">
+							</div>
+							<div id="intro-content-text" class="col-md-6 text title">
+								<h1 style="font-size: 4em;">Huella Verde</h1>
+								<p style="font-size: 2em;">Un huerto ecológico en familia</p>
+							</div>
+							<div id="intro-content-img-2" class="col-md-3 title">
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="intro-2">
+			<div class="cabecera">
+				<div class="content">
+				    <div class="row">
+				        <div class="col-md-3 title">
+							<h1>¿Por qué un huerto en familia?</h1>
+						</div>
+						<div class="col-md-9 text">
+							<p>Cuidar un huerto es una actividad de ocio activo que permite desarrollar vínculos familiares. Además, ayuda a los más pequeños a desarrollar habilidades como la concentración y la paciencia, despertando su interés por el medio ambiente.<br><br>Püramüm significa "cosechar" en lengua Mapuche, un pueblo indígena que habita el sur de Chile y que vive en completa armonía con la tierra. Esta guía pretende ser un punto de partida para despertar el mismo respeto por la naturaleza que siente el pueblo Mapuche.</p>
+						</div>
+					</div>
+				</div>
+				<div class="button">
+					<a id="flecha" href="#p1"><img src="img/flecha.png" style="width=48px; height:48px;"></img></a>
+				</div>
+			</div>
+		</div>
+		<div id="p0">
+			<div class="cabecera">
+				<div class="content">
+				    <div class="row">
+				        <div class="col-md-3 title">
+							<h1>Un huerto ecológico</h1>
+						</div>
+						<div class="col-md-9 text">
+							<p>Antes de diseñar nuestro huerto, debemos comprender qué significa el concepto "ecológico":<br>1 – Uso de materiales orgánicos frente a químicos.<br>2 – Uso de métodos preventivos ante plagas o epidemias.<br>3 – Riego eficiente, consumiendo exclusivamente el agua que cada planta necesita.<br>4 – Cultivo especies adaptadas a las condiciones climáticas de la zona, preservado las variedades locales.<br>5 – Garantía de la biodiversidad, evitando el monocultivo.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="p1">
+			<div id="p1-img1" class="bg-img">
+				<div id="p1-img2" class="bg-img">
+					<div class="cabecera">
+						<div class="content">
+						    <div class="row">
+						        <div class="col-md-3 title">
+									<h1>1 – Planificar el huerto</h1>
+								</div>
+								<div class="col-md-9 text">
+									<p>El primer paso a seguir para diseñar un huerto es su planificación. Debemos saber qué vamos a plantar y tener en cuenta que es conveniente combinar vegetales en la misma maceta e ir alternando cultivos año a año. Para una buena gestión del policultivo, es muy cómodo contar con un plano donde anotemos qué plantas estamos cultivando y cuáles plantaremos la temporada siguiente.<br><br>Además, debemos contar con un calendario de siembra, trasplante y cosecha, de este modo nos acordaremos de hacer cada actividad en su momento óptimo.<br><br>Y por último, debemos seguir un diario para cada planta, de modo que podamos prever futuras incidencias y aprender de los errores pasados.</p>
+								</div>
+							</div>
+						</div>
+						<div id="button-p1" class="button-mas">
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="p1-contenido" class="contenido">
+			<div class="content-2">
+				<div class="row">
+			        <div class="col-md-3 title">
+						<h2>1.1 – ¿Qué planto?</h2>
+					</div>
+					<div class="col-md-9 text">
+						<p>Debemos saber qué plantas crecerán mejor en el clima en el que vivimos y en el entorno de nuestro hogar. Para ello, tenemos que tener en cuenta la luz solar que baña nuestro balcón (qué cantidad y cuántas horas al día) y si disponemos de espacio en el interior de la casa para proteger a algunas plantas de las heladas en invierno. A continuación podemos consultar las <a href="#p6">fichas de cada cultivo</a>, dentro del apartado "6 – Cuidar el huerto", dónde veremos qué plantas se adaptan a estas condiciones.</p>
+					</div>
+				</div>
+			</div>
+			<div class="content-2">
+				<div class="row">
+			        <div class="col-md-3 title">
+						<h2>1.2 – Combinaciones y rotaciones beneficiosas</h2>
+					</div>
+					<div class="col-md-9 text">
+						<p>Debemos tener en cuenta que para que nuestro huerto sea ecológico y las plantas crezcan sanas, disponemos de dos técnicas esenciales: la combinación y la rotación de cultivos.<br><br>La combinación se basa en plantar distintos vegetales en el mismo espacio, de este modo las plantas se ayudan entre sí y conseguimos evitar plagas o epidemias de forma natural. Por ejemplo, el tomate es muy sensible al pulgón y la albahaca lo repele, de modo que si los plantamos en la misma maceta, el tomate crecerá sano sin necesitar pesticidas químicos. Además, estaremos sacando el máximo partido a espacios pequeños.<br><br>Para explicar a los niños la importancia de mantener la diversidad de especies, y cómo estas se ayudan entre sí, podemos contarles que "hay algunos vegetales que son amigos y se ayudan entre sí, por eso deben estar en la misma maceta; además, si estuviesen solos llegarían a aburrirse".</p>
+					</div>
+				</div>
+			</div>
+			<div class="content-2">
+				<div class="row">
+			        <div class="col-md-3 title">
+						<h2></h2>
+					</div>
+					<div class="col-md-9 text">
+						<p>La rotación consiste en alternar periódicamente distintos cultivos en la misma tierra, evitando así el agotamiento de la tierra y conservando su fertilidad natural. Cada hortaliza tiene una composición química propia y necesita unos nutrientes en proporciones concretas durante su ciclo vital. Si sólo cultivamos una misma planta durante varios años seguidos, estará agotando ciertos nutrientes, mientras habrá otros acumulándose en la tierra, que acabarán atrayendo a parásitos. Por eso, si no se practica la rotación, para la planta será más difícil producir frutos y será más vulnerable ante plagas y enfermedades.</p>
+					</div>
+				</div>
+			</div>
+			<div class="content-2">
+				<div class="row">
+			        <div class="col-md-3 title">
+						<h2></h2>
+					</div>
+					<div class="col-md-9 text">
+						<p>La rotación consta de cuatro fases porque debemos alternar entre cuatro familias botánicas diferentes. Además, hay que evitar repetir la cosecha de dos especies del mismo tipo vegetativo (hoja verde, fruto, raíz y leguminosa). Por eso, en el sector amarillo aparece una bifurcación, pues no es aconsejable plantar zanahorias o rabanitos seguidas de otras zanahorias, ya que ambos son del tipo vegetativo: "raíz".<br><br>
+						En el gráfico también se aplican las normas de combinación, de modo que se agrupan los vegetales que permiten formar un sector de rotación y que a su vez son buenos para plantar juntos. Se indica una buena combinación con la intersección en color verde y una mala combinación en color rojo.</p>
+					</div>
+				</div>
+			</div>
+			<div class="content-2">
+				<div class="row">
+					<div class="col-md-8"><img src="img/grafico.png" id="g-circulo-img"></img></div>
+			        <div class="col-md-4"><img src="img/leyenda.png" id="leyenda"></img></div>
+				</div>
+			</div>
+			<div class="content-2">
+				<div class="row">
+			        <div class="col-md-3 title">
+						<h2>1.3 – Los marcos de cultivo</h2>
+					</div>
+					<div class="col-md-9 text">
+						<p>Por último, debemos tener en cuenta qué son los marcos de cultivo. Se trata del espacio que necesita cada planta dentro de la maceta para desarrollarse correctamente. Esto significa que al cultivar varias plantas en la misma maceta, debemos dejar una distancia similar al marco de plantación de cada una entre el resto.<br><br>Como consecuencia, el tamaño de la maceta deberá ser suficientemente grande y en caso de no disponer de espacio en casa, debemos elegir plantas cuyos marcos de plantación no sean demasiado grandes y por ejemplo combinar únicamente dos variedades. Llegados a este punto, también debemos tener en cuenta que para realizar la rotación de cultivos necesitamos más de una maceta (cuatro sería ideal). Pero para empezar podemos contar con una e ir ampliando nuestro huerto año a año. Y si no disponemos de espacio para ampliar a cuatro macetas sobre las que ir rotando cultivos, podemos compartir planteles con amigos o familiares.</p>
+					</div>
+				</div>
+			</div>
+			<div class="content-2">
+				<div id="g-marcos">
+					<div class="row">
+				        <div class="col-md-6"><img src="img/marco1.png" style="width:100%;" class="marco-left"></div>
+				        <div class="col-md-6"><img src="img/marco2.png" style="width:100%;" class="marco-right"></div>
+				       	<div class="col-md-6"><img src="img/marco3.png" style="width:100%;" class="marco-left"></div>
+				       	<div class="col-md-6"><img src="img/marco4.png" style="width:100%;" class="marco-right"></div>
+					</div>
+				</div>
+			</div>
+			<div class="content-2">
+				<div class="row">
+			        <div class="col-md-3 title">
+						<h2>1.4 – Agenda</h2>
+					</div>
+					<div class="col-md-9 text">
+						<p>Ya conocemos cómo planificar el huerto, ahora podemos descargar, imprimir e ir archivando las siguientes fichas, que nos permitirán planificar nuestro huerto e ir creando una agenda personalizada:<br>
+							<a href="img/ficha_cultivo.pdf" target="_blank">1 – Ficha de cultivo</a><br>
+							<a href="img/maceta.pdf" target="_blank">2 – Plano de diseño de maceta</a><br>
+							<a href="img/rotacion.pdf" target="_blank">3 – Ficha de rotación de cultivos</a>
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<script>
+			$( "#button-p1" ).click(function() {
+			  $( "#p1-contenido" ).slideToggle( "slow" );
+			  $ ( this ).toggleClass( "button-menos" );
+			});
+		</script>
+		<div id="p2">
+			<div id="p2-img1" class="bg-img">
+				<div id="p2-img2" class="bg-img">
+					<div class="cabecera">
+						<div class="content">
+						    <div class="row">
+						        <div class="col-md-3 title">
+									<h1>2 – Los materiales</h1>
+								</div>
+								<div class="col-md-9 text">
+									<p>El siguiente paso es preparar los materiales que necesitamos para cuidar nuestro huerto. Tras la planificación, sabemos por ejemplo qué semillas adquirir y el tamaño de las macetas. Debemos recordar que al tratarse de un huerto ecológico, los fertilizantes serán orgánicos y los remedios para ahuyentar plagas o evitar epidemias, serán preventivos (rotación y combinación de cultivos). Aun así, si llegasen a aparecer ciertas enfermedades, podemos hacer uso de algunos remedios naturales que podemos consultar con nuestro distribuidor habitual.</p>
+								</div>
+							</div>
+						</div>
+						<div id="button-p2" class="button-mas">
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="p2-contenido" class="contenido">
+			<div class="content-2">
+				<div class="row">
+			        <div class="col-md-3 title">
+						<h2>2.1 – Lista de materiales</h2>
+					</div>
+					<div class="col-md-9 text">
+						<!-- Galería inicio -->
+						<div id="carousel-example-generic-3" class="carousel slide" data-ride="carousel">
+						  	<!-- Indicators
+							<ol class="carousel-indicators">
+								<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+							    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+							    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+							</ol> -->
+							<!-- Wrapper for slides -->
+							<div class="carousel-inner" role="listbox">
+							    <div class="item active">
+							      	<img class="item-2"src="img/material-maceta.png" alt="Maceta" style="padding-bottom:180px;">
+							      	<div class="galeria-text" style=""><h4>Maceta</h4><p>Puede ser de cerámica, madera o textil. Debe tener una altura mínima de 40cm y 80cm de diámetro. Y  ha de contar con un orificio en la base que permita el drenaje.</p></div>
+							    </div>
+							    <div class="item">
+							      	<img class="item-2"src="img/semillero.png" alt="Semilleros" style="padding-bottom:180px;">
+							      	<div class="galeria-text" style=""><h4>Semilleros alveolados</h4><p>Son recipientes divididos en varios compartimentos. Nos permiten proteger a las plantas del viento y las heladas hasta que son trasplantadas a una maceta.</p></div>
+							    </div>
+							    <div class="item">
+							      	<img class="item-2" src="img/spray.png" alt="Pulverizador" style="padding-bottom:180px;">
+							      	<div class="galeria-text" style=""><h4>Pulverizador</h4><p>El pulverizador es un sistema de riego que usaremos para regar de forma delicada, evitando encharcamientos. Es ideal para realizar el riego en semilleros.</p></div>
+							    </div>
+							    <div class="item">
+							      	<img class="item-2"src="img/regadera.png" alt="Regadera" style="padding-bottom:180px;">
+							      	<div class="galeria-text" style=""><h4>Regadera</h4><p>La regadera es el sistema tradicional de riego en el hogar, y la utilizaremos para regar las plantas una vez las hemos trasplantado a la maceta.</p></div>
+							    </div>
+							    <div class="item">
+							      	<img class="item-2" src="img/coco.png" alt="Fibra de coco" style="padding-bottom:180px;">
+							      	<div class="galeria-text" style=""><h4>Fibra de coco</h4><p>Se trata de la base de nuestro sustrato. Es muy ligero y poroso, lo que permite la movilidad de la maceta y un drenaje adecuado.</p></div>
+							    </div>
+							    <div class="item">
+							      	<img class="item-2"src="img/lombriz.png" alt="humus de lombriz" style="padding-bottom:180px;">
+							      	<div class="galeria-text" style=""><h4>Humus de lombriz</h4><p>Aporta al sustrato los nutrientes que la planta necesita. Es el fertilizante orgánico de mayor calidad y se trata de compost fabricado por lombrices.</p></div>
+							    </div>
+							    <div class="item">
+							      	<img class="item-2" src="img/semillas.png" alt="Semillas" style="padding-bottom:180px;">
+							      	<div class="galeria-text" style=""><h4>Semillas</h4><p>Las podemos adquirir en tiendas de jardinería o intercambiar con otros hortelanos. Es importante cerciorarnos de que son ecológicas.</p></div>
+							    </div>
+							    <div class="item">
+							      	<img class="item-2"src="img/tijeras.png" alt="Tijeras" style="padding-bottom:180px;">
+							      	<div class="galeria-text" style=""><h4>Tijeras</h4><p>Utilizaremos las tijeras para realizar la poda de las plantas más débiles antes del trasplante y para la recolección de algunos frutos.
+							      	</p></div>
+							    </div>
+							</div>
+							<!-- Controls -->
+							<a class="carousel-control left galeria-control" href="#carousel-example-generic-3" role="button" data-slide="prev">
+							    <span class="glyphicon glyphicon-chevron-left galeria-arrow" aria-hidden="true"></span>
+							    <span class="sr-only">Previous</span>
+							</a>
+							<a class="carousel-control right galeria-control" href="#carousel-example-generic-3" role="button" data-slide="next">
+							    <span class="glyphicon glyphicon-chevron-right galeria-arrow" aria-hidden="true"></span>
+							    <span class="sr-only">Next</span>
+							</a>
+						</div>
+						<!-- Galería fin -->
+					</div>
+				</div>
+			</div>
+		</div>
+		<script>
+			$( "#button-p2" ).click(function() {
+			  $( "#p2-contenido" ).slideToggle( "slow" );
+			  $ ( this ).toggleClass( "button-menos" );
+			});
+		</script>
+		<div id="p3">
+			<div class="cabecera">
+				<div class="content">
+					<div class="row">
+						<div class="col-md-3 title">
+							<h1>3 – Preparar la maceta</h1>
+						</div>
+						<div class="col-md-9 text">
+							<p>Cuando ya tenemos los materiales y sabemos qué y cuándo vamos a plantar, podemos preparar el sustrato. El sustrato en sí mismo, tan solo tiene como función sostener a la planta y transportar el agua y los nutrientes que esta necesita a través de sus raíces. Por ello es muy importante aportar al sustrato algún tipo de fertilizante orgánico que permita a las plantas crecer sanas y fuertes.</p>
+						</div>
+					</div>
+				</div>
+				<div id="button-p3" class="button-mas">
+				</div>
+			</div>
+		</div>
+		<div id="p3-contenido" class="contenido">
+			<div class="content-2">
+				<div class="row">
+			        <div class="col-md-3 title">
+						<h2>3.1 – La maceta</h2>
+					</div>
+					<div class="col-md-9 text">
+						<p>Para el huerto urbano en el hogar es muy aconsejable utilizar un sustrato ligero como es la fibra de coco y un fertilizante muy rico, como el humus de lombriz, que complemente al primero. La composición más adecuada es un 60% de fibra de coco y un 40% de humus de lombriz.</p><div id="g-maceta"><img src="img/paso3-maceta.png" style="width:300px;"></div><p>Antes de llenar la maceta, y de forma periódica, debemos amasar bien toda la mezcla de sustrato, de este modo estará ahuecada y conseguiremos un buen drenaje y la correcta respiración de las raíces.<br><br>A los niños les encanta mancharse las manos y manipular diferentes texturas, por eso es una buena idea que se encarguen de mezclar el sustrato y ahuecarlo junto con sus padres.<br><br>Debemos recordar que cuándo realicemos la siembra en semilleros, tenemos que llenar el alveolo con al menos 4 cm de altura del mismo sustrato que hemos preparado para la maceta.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		</div>
+		<script>
+			$( "#button-p3" ).click(function() {
+			  $( "#p3-contenido" ).slideToggle( "slow" );
+			  $ ( this ).toggleClass( "button-menos" );
+			});
+		</script>
+		<div id="p4">
+			<div id="p4-img1" class="bg-img">
+				<div id="p4-img2" class="bg-img">
+					<div class="cabecera">
+						<div class="content">
+						    <div class="row">
+						        <div class="col-md-3 title">
+									<h1>4 – La siembra</h1>
+								</div>
+								<div class="col-md-9 text">
+									<p>El proceso de germinación consiste en la transformación de la semilla en planta. Algunas semillas se plantan en bandejas de alveolos o semilleros y cuando han alcanzado un tamaño determinado se trasplantan a su maceta. Otras, como zanahorias, rabanitos, habas, guisantes y espinacas, pueden sembrarse directamente en la maceta.<br><br>Aunque la germinación es delicada, resulta muy interesante para que los niños aprendan cómo nacen las plantas y además es un proceso que ayuda al desarrollo de la paciencia.<br><br>Debemos recordar que como norma general es preferible <span style="font-family: geomanistbold;">sembrar por las mañanas y trasplantar por las tardes</span>.</p>
+								</div>
+							</div>
+						</div>
+						<div id="button-p4" class="button-mas">
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="p4-contenido" class="contenido">
+			<div class="content-2">
+				<div class="row">
+			        <div class="col-md-3 title">
+						<h2>4.1 – La siembra</h2>
+					</div>
+					<div class="col-md-9 text">
+						<p>Germinar semillas no requiere de mucha experiencia pero los primeros días necesitaremos estar muy pendientes de nuestros semilleros para que no les falte ni la humedad ni la temperatura que necesitan para germinar.<br><br>Hasta que la semilla germine, debemos tener en cuenta que la planta es muy sensible a la falta de agua, por lo que el sustrato ha de estar siempre húmedo. Pero nunca debemos regar a chorros fuertes porque podemos desenterrar las semillas y evitar encharcarlo, pueden aparecer hongos.<br><br>En tiempo ventoso o seco es conveniente cubrir la bandeja con un plástico o resguardar los semilleros dentro de casa.<br><br>La mayoría de semillas necesitan cierta temperatura para iniciar el proceso de germinación (y que podemos consultar en la ficha de cada planta) por lo que intentaremos colocarlas en un lugar de casa que garantice esa temperatura. También podemos consultar el momento del año indicado para la siembra en el calendario de cada cultivo.</p>
+					</div>
+				</div>
+			</div>
+			<div class="content-2">
+				<div class="row">
+			        <div class="col-md-3 title">
+						<h2>4.2 – Proceso</h2>
+					</div>
+					<div class="col-md-9 text">
+						<!-- Galería inicio -->
+						<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+						  	<!-- Indicators
+							<ol class="carousel-indicators">
+								<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+							    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+							    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+							</ol> -->
+							<!-- Wrapper for slides -->
+							<div class="carousel-inner" role="listbox">
+							    <div class="item active">
+							      	<img class="item-2"src="img/paso4-01.png" alt="Paso 1">
+							      	<div class="galeria-text"><h4>Paso 1</h4><p>Enterrar las semillas</p></div>
+							    </div>
+							    <div class="item">
+							      	<img class="item-2"src="img/paso4-02.png" alt="Paso 2">
+							      	<div class="galeria-text"><h4>Paso 2</h4><p>Regar ligeramente</p></div>
+							    </div>
+							    <div class="item">
+							      	<img class="item-2" src="img/paso4-03.png" alt="Paso 3">
+							      	<div class="galeria-text"><h4>Paso 3</h4><p>Eliminar las plantas más débiles</p></div>
+							    </div>
+							</div>
+							<!-- Controls -->
+							<a class="carousel-control left galeria-control" href="#carousel-example-generic" role="button" data-slide="prev">
+							    <span class="glyphicon glyphicon-chevron-left galeria-arrow" aria-hidden="true"></span>
+							    <span class="sr-only">Previous</span>
+							</a>
+							<a class="carousel-control right galeria-control" href="#carousel-example-generic" role="button" data-slide="next">
+							    <span class="glyphicon glyphicon-chevron-right galeria-arrow" aria-hidden="true"></span>
+							    <span class="sr-only">Next</span>
+							</a>
+						</div>
+						<!-- Galería fin -->
+					</div>
+				</div>
+			</div>
+		</div>
+		<script>
+			$( "#button-p4" ).click(function() {
+			  $( "#p4-contenido" ).slideToggle( "slow" );
+			  $ ( this ).toggleClass( "button-menos" );
+			});
+		</script>
+		<div id="p5">
+			<div id="p5-img1" class="bg-img">
+				<div class="cabecera">
+					<div class="content">
+					    <div class="row">
+					        <div class="col-md-3 title">
+								<h1>5 – El trasplante</h1>
+							</div>
+							<div class="col-md-9 text luna">
+								<p>Cuando las nuevas plantas germinadas tengan varias hojas y su altura sea superior a la del envase, habrá llegado el momento de hacer el trasplante. Podemos consultar en el calendario de cultivo de cada planta el momento idóneo para realizar el trasplante.</p>
+							</div>
+						</div>
+					</div>
+					<div id="button-p5" class="button-mas"></div>
+				</div>
+			</div>
+		</div>
+		<div id="p5-contenido" class="contenido">
+			<div class="content-2">
+				<div class="row">
+			        <div class="col-md-3 title">
+						<h2>5.1 – Proceso</h2>
+					</div>
+					<div class="col-md-9 text">
+						<!-- Galería inicio -->
+						<div id="carousel-example-generic-2" class="carousel slide" data-ride="carousel">
+						  	<!-- Indicators
+							<ol class="carousel-indicators">
+								<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+							    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+							    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+							</ol> -->
+							<!-- Wrapper for slides -->
+							<div class="carousel-inner" role="listbox">
+							    <div class="item active">
+							      	<img class="item-2"src="img/paso5-01.png" alt="Paso 1">
+							      	<div class="galeria-text"><h4>Paso 1</h4><p>Regar el alveolo (un día antes)</p></div>
+							    </div>
+							    <div class="item">
+							      	<img class="item-2"src="img/paso5-02.png" alt="Paso 2">
+							      	<div class="galeria-text"><h4>Paso 2</h4><p>Regar la maceta definitiva</p></div>
+							    </div>
+							    <div class="item">
+							      	<img class="item-2" src="img/paso5-03.png" alt="Paso 3">
+							      	<div class="galeria-text"><h4>Paso 3</h4><p>Sacar el cepellón del alveolo</p></div>
+							    </div>
+							    <div class="item">
+							      	<img class="item-2" src="img/paso5-04.png" alt="Paso 4">
+							      	<div class="galeria-text"><h4>Paso 4</h4><p>Enterrar el cepellón en la maceta</p></div>
+							    </div>
+							    <div class="item">
+							      	<img class="item-2" src="img/paso5-05.png" alt="Paso 5">
+							      	<div class="galeria-text"><h4>Paso 5</h4><p>Chafar un poco alrededor del tallo</p></div>
+							    </div>
+							    <div class="item">
+							      	<img class="item-2" src="img/paso5-06.png" alt="Paso 6">
+							      	<div class="galeria-text"><h4>Paso 6</h4><p>Regar generosamente</p></div>
+							    </div>
+							</div>
+							<!-- Controls -->
+							<a class="carousel-control left galeria-control" href="#carousel-example-generic-2" role="button" data-slide="prev">
+							    <span class="glyphicon glyphicon-chevron-left galeria-arrow" aria-hidden="true"></span>
+							    <span class="sr-only">Previous</span>
+							</a>
+							<a class="carousel-control right galeria-control" href="#carousel-example-generic-2" role="button" data-slide="next">
+							    <span class="glyphicon glyphicon-chevron-right galeria-arrow" aria-hidden="true"></span>
+							    <span class="sr-only">Next</span>
+							</a>
+						</div>
+						<!-- Galería fin -->
+					</div>
+				</div>
+			</div>
+		</div>
+		<script>
+			$( "#button-p5" ).click(function() {
+			  $( "#p5-contenido" ).slideToggle( "slow" );
+			  $ ( this ).toggleClass( "button-menos" );
+			});
+		</script>
+		<div id="p6">
+			<div id="p6-img1" class="bg-img">
+				<div id="p6-cabecera">
+					<div class="content">
+					    <div class="row">
+					        <div class="col-md-3 title">
+								<h1>6 – Cuidar el huerto</h1>
+							</div>
+							<div class="col-md-9 text cesta">
+								<p>Tras la germinación, debemos cuidar nuestras plantas para que produzcan frutos sabrosos. Los cuidados básicos consistirían en el riego y en asegurarnos que las plantas reciben suficiente luz y nutrientes.</p>
+							</div>
+						</div>
+					</div>
+					<div id="button-p6" class="button-mas">
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="p6-contenido" class="contenido">
+			<div class="content-2">
+				<div class="row">
+			        <div class="col-md-3 title">
+						<h2>6.1 – Los cuidados de cada planta</h2>
+					</div>
+					<div class="col-md-9 text">
+						<p>Cada planta requiere unos cuidados específicos, una cantidad de sol o de agua determinada, por lo que debemos consultar a continuación la ficha de cuidado de cada planta. También debemos saber cuándo cosechar los frutos de cada planta, para lo que podemos consultar el calendario de cada cultivo.</p>
+					</div>
+				</div>
+			</div>
+			<div class="row content-2">
+				<div class="col-md-2 menu-vegetales">
+					<!-- Modal -->				
+					<!-- Button trigger modal -->
+					<div data-toggle="modal" data-target="#m-ajo">
+						<img src="img/h01.png" class="boton-modal">
+					</div>
+					<!-- Modal -->
+					<div class="modal fade" id="m-ajo" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+					  <div class="modal-dialog ficha-pantalla" role="document">
+					    <div class="modal-content ficha-modal">
+					      <div class="modal-header modal-cabecera">
+					      	<div style="height:50px;"><button type="button" class="close cerrar" data-dismiss="modal" aria-label="Close"><img src="img/cerrar_negro.png" style="width:48px;"></button></div>
+					        <div style="text-align:center;"><h1 class="modal-title" id="myModalLabel">Ajo</h1></div>
+					      </div>
+					      <div class="modal-body">
+							<div id="ficha" class="row">
+					        <div id="vegetal" class="col-md-6">
+								<img src="img/f-ajo-i.png" style="width:100%;">
+							</div>
+							<div id="vegetal" class="col-md-6">
+								<img src="img/f-ajo-d.png" style="width:100%" class="vegetal-d">
+							</div>
+						</div>
+					      </div>
+					    </div>
+					  </div>
+					</div>
+					<!-- Fin Modal -->
+				</div>
+				<div class="col-md-2 menu-vegetales">
+					<!-- Modal -->				
+					<!-- Button trigger modal -->
+					<div data-toggle="modal" data-target="#m-albahaca">
+						<img src="img/h02.png" class="boton-modal">
+					</div>
+					<!-- Modal -->
+					<div class="modal fade" id="m-albahaca" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+					  <div class="modal-dialog ficha-pantalla" role="document">
+					    <div class="modal-content ficha-modal">
+					      <div class="modal-header modal-cabecera">
+					      	<div style="height:50px;"><button type="button" class="close cerrar" data-dismiss="modal" aria-label="Close"><img src="img/cerrar_negro.png" style="width:48px;"></button></div>
+					        <div style="text-align:center;"><h1 class="modal-title" id="myModalLabel">Albahaca</h1></div>
+					      </div>
+					      <div class="modal-body">
+							<div id="ficha" class="row">
+					        <div id="vegetal" class="col-md-6">
+								<img src="img/f-albahaca-i.png" style="width:100%;">
+							</div>
+							<div id="vegetal" class="col-md-6">
+								<img src="img/f-albahaca-d.png" style="width:100%" class="vegetal-d">
+							</div>
+						</div>
+					      </div>
+					    </div>
+					  </div>
+					</div>
+					<!-- Fin Modal -->
+				</div>
+				<div class="col-md-2 menu-vegetales">
+					<!-- Modal -->				
+					<!-- Button trigger modal -->
+					<div data-toggle="modal" data-target="#m-cebolla">
+						<img src="img/h03.png" class="boton-modal">
+					</div>
+					<!-- Modal -->
+					<div class="modal fade" id="m-cebolla" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+					  <div class="modal-dialog ficha-pantalla" role="document">
+					    <div class="modal-content ficha-modal">
+					      <div class="modal-header modal-cabecera">
+					      	<div style="height:50px;"><button type="button" class="close cerrar" data-dismiss="modal" aria-label="Close"><img src="img/cerrar_negro.png" style="width:48px;"></button></div>
+					        <div style="text-align:center;"><h1 class="modal-title" id="myModalLabel">Cebolla</h1></div>
+					      </div>
+					      <div class="modal-body">
+							<div id="ficha" class="row">
+					        <div id="vegetal" class="col-md-6">
+								<img src="img/f-cebolla-i.png" style="width:100%;">
+							</div>
+							<div id="vegetal" class="col-md-6">
+								<img src="img/f-cebolla-d.png" style="width:100%" class="vegetal-d">
+							</div>
+						</div>
+					      </div>
+					    </div>
+					  </div>
+					</div>
+					<!-- Fin Modal -->
+				</div>
+				<div class="col-md-2 menu-vegetales">
+					<!-- Modal -->				
+					<!-- Button trigger modal -->
+					<div data-toggle="modal" data-target="#m-espinaca">
+						<img src="img/h04.png" class="boton-modal">
+					</div>
+					<!-- Modal -->
+					<div class="modal fade" id="m-espinaca" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+					  <div class="modal-dialog ficha-pantalla" role="document">
+					    <div class="modal-content ficha-modal">
+					      <div class="modal-header modal-cabecera">
+					      	<div style="height:50px;"><button type="button" class="close cerrar" data-dismiss="modal" aria-label="Close"><img src="img/cerrar_negro.png" style="width:48px;"></button></div>
+					        <div style="text-align:center;"><h1 class="modal-title" id="myModalLabel">Espinaca</h1></div>
+					      </div>
+					      <div class="modal-body">
+							<div id="ficha" class="row">
+					        <div id="vegetal" class="col-md-6">
+								<img src="img/f-espinaca-i.png" style="width:100%;">
+							</div>
+							<div id="vegetal" class="col-md-6">
+								<img src="img/f-espinaca-d.png" style="width:100%" class="vegetal-d">
+							</div>
+						</div>
+					      </div>
+					    </div>
+					  </div>
+					</div>
+					<!-- Fin Modal -->
+				</div>
+				<div class="col-md-2 menu-vegetales">
+					<!-- Modal -->				
+					<!-- Button trigger modal -->
+					<div data-toggle="modal" data-target="#m-guisante">
+						<img src="img/h05.png" class="boton-modal">
+					</div>
+					<!-- Modal -->
+					<div class="modal fade" id="m-guisante" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+					  <div class="modal-dialog ficha-pantalla" role="document">
+					    <div class="modal-content ficha-modal">
+					      <div class="modal-header modal-cabecera">
+					      	<div style="height:50px;"><button type="button" class="close cerrar" data-dismiss="modal" aria-label="Close"><img src="img/cerrar_negro.png" style="width:48px;"></button></div>
+					        <div style="text-align:center;"><h1 class="modal-title" id="myModalLabel">Guisante</h1></div>
+					      </div>
+					      <div class="modal-body">
+							<div id="ficha" class="row">
+					        <div id="vegetal" class="col-md-6">
+								<img src="img/f-guisante-i.png" style="width:100%;">
+							</div>
+							<div id="vegetal" class="col-md-6">
+								<img src="img/f-guisante-d.png" style="width:100%" class="vegetal-d">
+							</div>
+						</div>
+					      </div>
+					    </div>
+					  </div>
+					</div>
+					<!-- Fin Modal -->
+				</div>
+				<div class="col-md-2 menu-vegetales">
+					<!-- Modal -->				
+					<!-- Button trigger modal -->
+					<div data-toggle="modal" data-target="#m-haba">
+						<img src="img/h06.png" class="boton-modal">
+					</div>
+					<!-- Modal -->
+					<div class="modal fade" id="m-haba" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+					  <div class="modal-dialog ficha-pantalla" role="document">
+					    <div class="modal-content ficha-modal">
+					      <div class="modal-header modal-cabecera">
+					      	<div style="height:50px;"><button type="button" class="close cerrar" data-dismiss="modal" aria-label="Close"><img src="img/cerrar_negro.png" style="width:48px;"></button></div>
+					        <div style="text-align:center;"><h1 class="modal-title" id="myModalLabel">Haba</h1></div>
+					      </div>
+					      <div class="modal-body">
+							<div id="ficha" class="row">
+					        <div id="vegetal" class="col-md-6">
+								<img src="img/f-haba-i.png" style="width:100%;">
+							</div>
+							<div id="vegetal" class="col-md-6">
+								<img src="img/f-haba-d.png" style="width:100%" class="vegetal-d">
+							</div>
+						</div>
+					      </div>
+					    </div>
+					  </div>
+					</div>
+					<!-- Fin Modal -->
+				</div>
+				<div class="col-md-2 menu-vegetales">
+					<!-- Modal -->				
+					<!-- Button trigger modal -->
+					<div data-toggle="modal" data-target="#m-lechuga">
+						<img src="img/h07.png" class="boton-modal">
+					</div>
+					<!-- Modal -->
+					<div class="modal fade" id="m-lechuga" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+					  <div class="modal-dialog ficha-pantalla" role="document">
+					    <div class="modal-content ficha-modal">
+					      <div class="modal-header modal-cabecera">
+					      	<div style="height:50px;"><button type="button" class="close cerrar" data-dismiss="modal" aria-label="Close"><img src="img/cerrar_negro.png" style="width:48px;"></button></div>
+					        <div style="text-align:center;"><h1 class="modal-title" id="myModalLabel">Lechuga</h1></div>
+					      </div>
+					      <div class="modal-body">
+							<div id="ficha" class="row">
+					        <div id="vegetal" class="col-md-6">
+								<img src="img/f-lechuga-i.png" style="width:100%;">
+							</div>
+							<div id="vegetal" class="col-md-6">
+								<img src="img/f-lechuga-d.png" style="width:100%" class="vegetal-d">
+							</div>
+						</div>
+					      </div>
+					    </div>
+					  </div>
+					</div>
+					<!-- Fin Modal -->
+				</div>
+				<div class="col-md-2 menu-vegetales">
+					<!-- Modal -->				
+					<!-- Button trigger modal -->
+					<div data-toggle="modal" data-target="#m-pepino">
+						<img src="img/h08.png" class="boton-modal">
+					</div>
+					<!-- Modal -->
+					<div class="modal fade" id="m-pepino" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+					  <div class="modal-dialog ficha-pantalla" role="document">
+					    <div class="modal-content ficha-modal">
+					      <div class="modal-header modal-cabecera">
+					      	<div style="height:50px;"><button type="button" class="close cerrar" data-dismiss="modal" aria-label="Close"><img src="img/cerrar_negro.png" style="width:48px;"></button></div>
+					        <div style="text-align:center;"><h1 class="modal-title" id="myModalLabel">Pepino</h1></div>
+					      </div>
+					      <div class="modal-body">
+							<div id="ficha" class="row">
+					        <div id="vegetal" class="col-md-6">
+								<img src="img/f-pepino-i.png" style="width:100%;">
+							</div>
+							<div id="vegetal" class="col-md-6">
+								<img src="img/f-pepino-d.png" style="width:100%" class="vegetal-d">
+							</div>
+						</div>
+					      </div>
+					    </div>
+					  </div>
+					</div>
+					<!-- Fin Modal -->
+				</div>
+				<div class="col-md-2 menu-vegetales">
+					<!-- Modal -->				
+					<!-- Button trigger modal -->
+					<div data-toggle="modal" data-target="#m-pimiento">
+						<img src="img/h09.png" class="boton-modal">
+					</div>
+					<!-- Modal -->
+					<div class="modal fade" id="m-pimiento" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+					  <div class="modal-dialog ficha-pantalla" role="document">
+					    <div class="modal-content ficha-modal">
+					      <div class="modal-header modal-cabecera">
+					      	<div style="height:50px;"><button type="button" class="close cerrar" data-dismiss="modal" aria-label="Close"><img src="img/cerrar_negro.png" style="width:48px;"></button></div>
+					        <div style="text-align:center;"><h1 class="modal-title" id="myModalLabel">Pimiento</h1></div>
+					      </div>
+					      <div class="modal-body">
+							<div id="ficha" class="row">
+					        <div id="vegetal" class="col-md-6">
+								<img src="img/f-pimiento-i.png" style="width:100%;">
+							</div>
+							<div id="vegetal" class="col-md-6">
+								<img src="img/f-pimiento-d.png" style="width:100%" class="vegetal-d">
+							</div>
+						</div>
+					      </div>
+					    </div>
+					  </div>
+					</div>
+					<!-- Fin Modal -->
+				</div>
+				<div class="col-md-2 menu-vegetales">
+					<!-- Modal -->				
+					<!-- Button trigger modal -->
+					<div data-toggle="modal" data-target="#m-rabanito">
+						<img src="img/h10.png" class="boton-modal">
+					</div>
+					<!-- Modal -->
+					<div class="modal fade" id="m-rabanito" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+					  <div class="modal-dialog ficha-pantalla" role="document">
+					    <div class="modal-content ficha-modal">
+					      <div class="modal-header modal-cabecera">
+					      	<div style="height:50px;"><button type="button" class="close cerrar" data-dismiss="modal" aria-label="Close"><img src="img/cerrar_negro.png" style="width:48px;"></button></div>
+					        <div style="text-align:center;"><h1 class="modal-title" id="myModalLabel">Rabanito</h1></div>
+					      </div>
+					      <div class="modal-body">
+							<div id="ficha" class="row">
+					        <div id="vegetal" class="col-md-6">
+								<img src="img/f-rabanito-i.png" style="width:100%;">
+							</div>
+							<div id="vegetal" class="col-md-6">
+								<img src="img/f-rabanito-d.png" style="width:100%" class="vegetal-d">
+							</div>
+						</div>
+					      </div>
+					    </div>
+					  </div>
+					</div>
+					<!-- Fin Modal -->
+				</div>
+				<div class="col-md-2 menu-vegetales">
+					<!-- Modal -->				
+					<!-- Button trigger modal -->
+					<div data-toggle="modal" data-target="#m-tomate">
+						<img src="img/h11.png" class="boton-modal">
+					</div>
+					<!-- Modal -->
+					<div class="modal fade" id="m-tomate" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+					  <div class="modal-dialog ficha-pantalla" role="document">
+					    <div class="modal-content ficha-modal">
+					      <div class="modal-header modal-cabecera">
+					      	<div style="height:50px;"><button type="button" class="close cerrar" data-dismiss="modal" aria-label="Close"><img src="img/cerrar_negro.png" style="width:48px;"></button></div>
+					        <div style="text-align:center;"><h1 class="modal-title" id="myModalLabel">Tomate</h1></div>
+					      </div>
+					      <div class="modal-body">
+							<div id="ficha" class="row">
+					        <div id="vegetal" class="col-md-6">
+								<img src="img/f-tomate-i.png" style="width:100%;">
+							</div>
+							<div id="vegetal" class="col-md-6">
+								<img src="img/f-tomate-d.png" style="width:100%" class="vegetal-d">
+							</div>
+						</div>
+					      </div>
+					    </div>
+					  </div>
+					</div>
+					<!-- Fin Modal -->
+				</div>
+				<div class="col-md-2 menu-vegetales">
+					<!-- Modal -->				
+					<!-- Button trigger modal -->
+					<div data-toggle="modal" data-target="#m-zanahoria">
+						<img src="img/h12.png" class="boton-modal">
+					</div>
+					<!-- Modal -->
+					<div class="modal fade" id="m-zanahoria" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+					  <div class="modal-dialog ficha-pantalla" role="document">
+					    <div class="modal-content ficha-modal">
+					      <div class="modal-header modal-cabecera">
+					      	<div style="height:50px;"><button type="button" class="close cerrar" data-dismiss="modal" aria-label="Close"><img src="img/cerrar_negro.png" style="width:48px;"></button></div>
+					        <div style="text-align:center;"><h1 class="modal-title" id="myModalLabel">Zanahoria</h1></div>
+					      </div>
+					      <div class="modal-body">
+							<div id="ficha" class="row">
+					        <div id="vegetal" class="col-md-6">
+								<img src="img/f-zanahoria-i.png" style="width:100%;">
+							</div>
+							<div id="vegetal" class="col-md-6">
+								<img src="img/f-zanahoria-d.png" style="width:100%" class="vegetal-d">
+							</div>
+						</div>
+					      </div>
+					    </div>
+					  </div>
+					</div>
+					<!-- Fin Modal -->
+				</div>
+			</div>
+			<div class="content-2">
+				<div class="row">
+			        <div class="col-md-3 title">
+						<h2>6.2 – El riego</h2>
+					</div>
+					<div class="col-md-9 text">
+						<p>Hay que observar a la planta y aprender a darle el agua que necesita cuando tenga sed. Si aunque regemos la planta regularmente presenta indicios de deshidratación, podemos cubrir la tierra para evitar pérdidas por evaporación, evitar el exceso de insolación o regar por la noche. Por el contrario, si tiene un exceso de humedad, podemos intentar ahuecar más la tierra o reducir la frecuencia o la cantidad de riego.<br><br>Aprender a regar requiere experiencia, por ejemplo, a veces, vale la pena hacer pasar un poco de sed a las plantas para aprender cada cuánto debemos regarlas. Es normal que a mediodía las hojas se vean caídas, pero si por la tarde cuando baja el sol vuelven a ponerse tiesas, quizá es el sol quien las castiga y no la falta de agua. Si por la tarde siguen lacias, es seguro que le faltaba agua y por tanto deberíamos haberlas regado. Pero si no era necesario y la hemos regado, podemos estar favoreciendo la aparición de hongos o la podredumbre de las raíces.<br><br>Podemos enseñar a los niños una rutina de observación de las plantas, de este modo mantendrán un contacto habitual con el huerto y disfrutarán ayudándonos con la tarea del riego.</p>
+					</div>
+				</div>
+			</div>
+			<div id="g-marcos" class="content-2">
+				<div class="row">
+			    	<div class="col-md-6">
+			    		<div id="g-riego">
+				    		<h2>Exceso</h2>
+				    	</div>
+				    	<div id="g-riego">
+				    		<img src="img/exceso-2.gif" style="width:300px;">
+				    	</div>
+			    	</div>
+					<div class="col-md-6">
+			    		<div id="g-riego">
+				    		<h2>Escasez</h2>
+				    	</div>
+				    	<div id="g-riego">
+				    		<img src="img/escasez.gif" style="width:300px;">
+				    	</div>
+			    	</div>
+				</div>
+			</div>
+			<div class="content-2">
+				<div class="row">
+			        <div class="col-md-3 title">
+						<h2>6.3 – La cosecha</h2>
+					</div>
+					<div class="col-md-9 text">
+						<p>La cosecha es la tarea más agradecida del trabajo en el huerto, pero hay que saber elegir el mejor momento para recolectar. Los cultivos en los que obtengamos frutos, el momento adecuado puede ser cuando estén maduros, como el tomate cuando se torna de color rojo. Sin embargo, en pepinos hay que recolectar antes de que maduren y formen la semilla. La mayoría de hortalizas de hoja (lechugas, espinacas, acelgas) nos permitirán ir cortando hojas conforme las necesitemos sin necesidad de arrancarlas, por lo que si vamos consumiendo según nuestra demanda el cultivo nos durará más tiempo. Además, con ajos y cebollas, tendremos una cosecha de tiernos si lo recolectamos antes y de secos si los dejamos más tiempo.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<script>
+			$( "#button-p6" ).click(function() {
+			  $( "#p6-contenido" ).slideToggle( "slow" );
+			  $ ( this ).toggleClass( "button-menos" );
+			});
+		</script>
+		<div id="about">
+			<div class="cabecera">
+				<div class="content">
+				    <div class="row">
+				        <div class="col-md-3 title">
+							<h1>Sobre Huella Verde</h1>
+						</div>
+						<div class="col-md-9 text" style="padding-bottom:50px;">
+							<p>Huella Verde es un proyecto de ARP. El proyecto pretende ser una guía de montaje y cuidado de un huerto ecológico en familia, amena, accesible y gratuita. Al mismo tiempo ofrecer una webapp para administrar y controlar el huerto desde el navegado y ofrecer un chatbot para ayudar a la gente</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+    </body>
+</html>

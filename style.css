@@ -1,0 +1,641 @@
+/*grid*/
+h4 {
+  margin-top: 25px;
+}
+.row {
+  margin-bottom: 20px;
+}
+.row .row {
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+[class*="col-"] {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background-color: #eee;
+  background-color: rgba(86,61,124,.15);
+  border: 1px solid #ddd;
+  border: 1px solid rgba(86,61,124,.2);
+}
+hr {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+/*fin grid*/
+/*estilos puramun*/
+/* estilos generales*/
+body{
+  color: #3a3939;
+  margin: auto;
+}
+h1,h2 {
+  font-family: "geomanistbold";
+  line-height: 1.1;
+  margin: 0px;
+}
+h1{
+  font-size: 3em;
+}
+h2{
+  font-size: 2em;
+}
+h4{
+  font-family: "geomanistbold";
+  color: #3a3939;
+  margin: auto;
+  padding: 10px 0px 10px 0px;
+}
+p {
+  font-family: "geomanist_regularregular";
+  font-size: 1.2em;
+  line-height: 1.4;
+  margin: 0px;
+}
+a,a:link,a:hover,a:active,a:visited {
+  text-decoration: none;
+  font-family: "geomanistbold";
+  color: #3a3939;
+}
+a:hover{
+  text-decoration: underline;
+}
+.row{
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 0px;
+  background-color: transparent;
+}
+[class*="col-"] {
+  background-color: transparent; 
+  border: 0px;
+  padding: 0px;
+  text-align: left;
+}
+.title{
+  margin-left: auto;
+  margin-right: auto; 
+  text-align: center;
+  padding: 0px 40px 0px 40px;
+}
+.text{
+  margin-left: auto;
+  margin-right: auto; 
+  padding: 10px 0px 0px 0px;
+  text-align: center;
+}
+.button{
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px 0px 5px 0px;
+  text-align: center;
+}
+.bg-img{
+  background-repeat: no-repeat;
+  background-size: 25%;
+}
+.content{
+  margin-left: auto;
+  margin-right: auto; 
+  max-width: 450px;
+}
+.content-2{
+  margin-left: auto;
+  margin-right: auto; 
+  max-width: 450px;
+  padding: 30px 20px 0px 20px;
+}
+.contenido{
+  background-color: #eff0f4;
+  padding: 30px 0px 30px 0px;
+}
+.contenido-title{
+  margin-left: auto;
+  margin-right: auto; 
+  padding: 30px 20px 10px 20px;
+  text-align: center;
+  max-width: 800px;
+}
+.contenido-text{
+  margin-left: auto;
+  margin-right: auto; 
+  padding: 10px 20px 10px 20px;
+  text-align: center;
+  max-width: 800px;
+}
+/*fin estilos generales*/
+
+  
+  #g-marcos{
+    margin: auto;
+    padding: 20px 20px 20px 20px;
+    text-align: center;
+  }
+  #g-material{
+    margin: auto;
+    padding: 10px 0px 10px 0px;
+    max-width: 300px;
+    text-align: center;
+  } 
+  #g-vegetal{
+    margin: auto;
+    padding: 10px 0px 10px 0px;
+    max-width: 300px;
+    text-align: center;
+    cursor: pointer;
+  }
+  #riego{
+    background-color: white;
+  }
+  #g-riego{
+    margin: auto;
+    padding: 10px 0px 10px 0px;
+    max-width: 100%;
+    text-align: center;
+  }
+  #g-siembra{
+    text-align: center;
+    padding: 50px 20px 10px 20px;
+    max-width: 90%;
+    margin: auto;
+  }
+  .material{
+    text-align: center;
+  }
+  
+  .cabecera{
+    padding: 50px 20px 20px 20px;
+  }
+  
+/*menú*/
+#menu{
+  background-color: white;
+  text-align: right;
+  position: fixed;
+  right: 10px;
+  top: 10px;
+  padding: 1px 0 0 7px;
+  z-index: 1;
+}
+.overlay.active {
+  opacity: 0.97;
+  visibility: visible;
+  transition: opacity 1s;
+}
+.overlay {
+  position: fixed;
+  z-index: 20;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: #f65f4f;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity .5s,visibility 0s .5s;
+}
+/*.overlay-2{
+  padding-top: 400px;
+  position: fixed;
+  z-index: 20;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: #f65f4f;
+  opacity: 1;
+  visibility: visible;
+}
+.loaded .overlay-2{
+  display: none;
+}
+.tomate{
+display: inline-block;
+}*/
+#boton-cerrar{
+  text-align: right;
+  padding: 20px 20px 0px 0px;
+}
+.menu-text{
+  text-align: center;
+  color: white;
+  font-size: 1.5em;
+  line-height: 1.4;
+  padding: 60px 0px 0px 0px;
+}
+/*fin menú*/
+/*intro*/
+#intro{
+  background-color: #fedfc0;
+}
+#intro-img1{
+  background-image: url(img/valla.png);
+  background-position: bottom center;
+  background-size: 300px;
+}
+#intro-content-text{
+  padding: 50px 0px 150px 0px;
+  text-align: center;
+}
+#intro-content-img{
+  text-align: center;
+  padding-top: 40px;
+}
+#intro-content-img-2{
+  background-image: url();
+  text-align: center;
+  padding-top: 80px;
+}
+#intro-2{
+  background-color: #ee7664;
+}
+/*fin intro*/
+/*paso0*/
+#p0{
+  padding-bottom: 30px;
+}
+/*fin paso0*/
+/*paso1*/
+#p1{
+  background-color: #DDF3F7;
+}
+#p1-img1{
+  background-image: url(img/cuaderno.png);
+}
+#p1-img2{
+  background-image: url(img/lapiz.png);
+  background-position: bottom right;
+}
+#g-circulo-img{
+  max-width: 100%;
+  text-align: center;
+}
+#leyenda{
+  max-width: 80%;
+  text-align: center;
+  padding: 30px 0px 30px 30px;
+}
+/*fin paso1*/
+/*paso2*/
+#p2{
+  background-color: #fedfc0;
+}
+#p2-img1{
+  background-image: url(img/mariquita.png);
+}
+#p2-img2{
+  background-image: url(img/mariquita2.png);
+  background-position: bottom right;
+}
+/*fin paso2*/
+/*paso3*/
+#p3{
+  background-color: #E1F6B4;
+}
+#g-maceta{
+  margin: auto;
+  text-align: center;
+  padding: 20px 0px 20px 0px;
+}
+/*fin paso3*/
+/*paso4*/
+  #p4{
+    background-color: #fff5f3;
+  }
+  #p4-img1{
+    background-image: url(img/sol.png);
+  }
+  #p4-img2{
+    background-image: url(img/nubes.png);
+    background-position: bottom right;
+  }
+  .info-numero{
+    margin-left: auto;
+    margin-right: auto; 
+    text-align: center;
+    padding: 0px 0px 5px 0px;
+  }
+  .info-text{
+    margin-left: auto;
+    margin-right: auto; 
+    text-align: center;
+    max-width: 180px;
+    padding: 5px 0px 5px 0px;
+  }
+  .info-img{
+    margin-left: auto;
+    margin-right: auto; 
+    text-align: center;
+    padding: 5px 0px 0px 0px;
+  }
+/*fin paso4*/
+/*paso5*/
+  #p5{
+    background-color: #DDF3F7;
+  }
+  #p5-img1{
+    background-image: url(img/luna.png);
+    background-position: top right;
+  }
+/*fin paso5*/
+/*paso6*/
+  #p6{
+    background-color: #f7ea9f;
+  }
+  #p6-img1{
+    background-image: url(img/cesta.png);
+    background-position: top center;
+    background-size: 50%;
+  }
+  #p6-cabecera{
+    padding: 80px 20px 20px 20px;
+  }
+/*fin paso 6*/
+  #ajo {
+    background-color: #f3fdff;
+  }
+  #albahaca {
+    background-color: #f3fdff;
+  }
+  #cebolla {
+    background-color: #f3fdff;
+  }
+  #espinaca {
+    background-color: #f3fdff;
+  }
+  #guisante {
+    background-color: #f3fdff;
+  }
+  #haba {
+    background-color: #f3fdff;
+  }
+  #lechuga {
+    background-color: #f3fdff;
+  }
+  #pepino {
+    background-color: #f3fdff;
+  }
+  #pimiento {
+    background-color: #f3fdff;
+  }
+  #rabanito {
+    background-color: #f3fdff;
+  }
+  #tomate {
+    background-color: #f3fdff;
+  }
+  #zanahoria {
+    background-color: #f3fdff;
+  }
+  .ficha-text{
+    text-align: center;
+    font-size: 1.5em;
+  }
+  #ficha{
+    margin: auto;
+    text-align: center;
+  }
+  #vegetal{
+    margin: auto;
+    text-align: center;
+    margin-top:-18px;
+  }
+  .vegetal-d{
+    margin: auto;
+    text-align: center;
+    margin-top:-40px;
+    margin-right:-18px;
+  }
+/*about*/
+  #about{
+    background-color: #ee7664;
+  }
+  #about-cabecera{
+    padding: 30px 20px 20px 20px;
+  }
+  .marco-left{
+    padding-right: 0px;
+    padding-bottom: 15px;
+  }
+  .marco-right{
+    padding-left: 0px;
+    padding-bottom: 15px;
+  }
+/*fin about*/
+/*desplegables*/  
+  #p1-contenido{
+    display: none;
+  }
+  #p2-contenido{
+    display: none;
+  }
+  #p3-contenido{
+    display: none;
+  }
+  #p4-contenido{
+    display: none;
+    background-color: white;
+  }
+  #p5-contenido{
+    display: none;
+  }
+  .button-mas{
+    background-image: url(img/mas.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 48px;
+    padding: 30px;
+    margin-top: 12px;
+    cursor: pointer;
+  }
+  .button-menos{
+    background-image: url(img/menos.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 48px;
+    padding: 30px;
+    margin-top: 12px;
+    cursor: pointer;
+  }
+  #p6-contenido{
+    display: none;
+  }
+/*fin desplegables*/
+/*Galería*/
+.galeria-control, .galeria-control.right, .galeria-control.left{
+  background-image: none;
+  background-color: transparent;
+  text-shadow: none;
+  color: #3a3939;
+  opacity:1;
+}
+.galeria-text {
+    position: absolute;
+    right: 15%;
+    bottom: 20px;
+    left: 15%;
+    z-index: 10;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+.carousel-inner .item .item-2{
+  padding: 30px 0px 140px 0px;
+  margin: auto;
+  max-width: 70%;
+}
+.carousel-control .galeria-arrow{
+  margin-top: -40px;
+}
+.button, .cerrar{
+  opacity: 1;
+}
+.ficha-modal{
+  position: relative;
+  background-color: #f3fdff;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  border: none;
+  border-radius: 0px;
+  outline: 0px;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+.ficha-pantalla{
+  width: auto;
+  margin: 10px;
+}
+.modal-cabecera{
+  border-bottom: none;
+}
+.boton-modal{
+  width: 100px;
+  cursor: pointer;
+  text-align: center;
+}
+.menu-vegetales{
+  text-align: center;
+}
+.cesta{
+      padding-bottom: 0px;
+    }
+.luna{
+  padding-bottom: 0px;
+}
+  @media screen and (min-width: 40em) {
+    #intro-content-img{
+      text-align: left;
+    }
+    #g-marcos{
+    margin: auto;
+    text-align: center;
+  }
+    #g-siembra{
+    text-align: center;
+    padding: 50px 20px 10px 20px;
+    max-width: 40%;
+    margin: auto;
+    }
+    #vegetal{
+    margin: auto;
+    text-align: center;
+    }
+    .vegetal-d{
+    margin: auto;
+    text-align: center;
+    }
+  #ficha{
+    margin: auto;
+    text-align: center;
+    max-width: 80%;
+  }
+  @media screen and (min-width: 992px) {
+    .ficha-modal{
+      position: relative;
+      background-color: #f3fdff;
+      -webkit-background-clip: padding-box;
+      background-clip: padding-box;
+      border: none;
+      border-radius: 0px;
+      outline: 0px;
+      -webkit-box-shadow: none;
+      box-shadow: none;
+    }
+    #menu{
+      background-color: transparent;
+      text-align: right;
+      position: fixed;
+      right: 10px;
+      top: 10px;
+      padding: 1px 0 0 7px;
+      z-index: 1;
+    }
+    .title{
+      text-align: left;
+      padding: 0px;
+    }
+    .text{
+      padding: 0px 0px 0px 40px;
+      text-align: left;
+    }
+    .bg-img{
+      background-repeat: no-repeat;
+      background-size: 20%;
+    }
+    #intro-content-text{
+      padding: 90px 0px 280px 0px;
+    }
+    #intro-content-img-2{
+      background-image: url(img/avispas.gif) ;
+      background-repeat: no-repeat;
+      background-size: 80%;
+      background-position: center right;
+      text-align: right;
+      padding-top: 300px;
+    }
+    #intro-img1{
+      background-image: url(img/valla-2.png);
+      background-size:800px;
+    }
+    #p2-img1, #p2-img2{
+      background-size: 15%;
+    }
+    #p6-img1{
+      background-size: 40%;
+    }
+    #p6-cabecera{
+      padding: 50px 20px 20px 20px;
+    }
+    .cesta{
+      padding-bottom: 100px;
+    }
+    .luna{
+      padding-bottom: 10px;
+    }
+    .content {
+      max-width: 800px;
+    }
+    .content-2{
+      margin-left: auto;
+      margin-right: auto; 
+      max-width: 800px;
+      padding-top: 30px;
+    }
+    #g-circulo-img{
+      max-width: 100%;
+      text-align: center;
+    }
+    #leyenda{
+      max-width: 110%;
+      text-align: center;
+      padding: 50px 0px 0px 20px;
+    }
+    .marco-left{
+    padding-right: 5px;
+    padding-bottom: 15px;
+    }
+    .marco-right{
+    padding-left: 5px;
+    padding-bottom: 15px;
+    }
+  }
+/*fin estilos puramun*/
